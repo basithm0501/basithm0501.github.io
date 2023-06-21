@@ -1083,6 +1083,18 @@ input, select, textarea {
 			font-weight: 600;
 		}
 
+		input[type="submit"].youtube,
+		input[type="reset"].youtube,
+		input[type="button"].youtube,
+		button.youtube,
+		.button.youtube {
+			background-color: #e21616;
+			color: #1b1f22 !important;
+			font-weight: 600;
+			outline: none;
+		}
+
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
